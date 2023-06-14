@@ -1,0 +1,106 @@
+body {
+    background: linear-gradient(90deg, rgba(20,164,173,1) 5%, rgba(28,54,46,1) 96%);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Geologica', sans-serif;
+    height: 90vh;
+}
+
+.login {
+    background-color: rgba(37, 37, 37, 0.678);
+    border-radius: 20px;
+    padding: 40px;
+    align-content: center;
+    color: white;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.titulo_principal {
+    font-size: 3em;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0.7em;
+}
+
+.label_form {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.6em;
+    font-weight: 400;
+}
+
+#email, #senha {
+    display: block;
+    margin-bottom: 10px;
+    background-color: rgb(24, 23, 23);
+    padding: 1em;
+    border-radius: 10px;
+    border-color: black;
+    width: 30vw;
+    color: white;
+    border-width: 0px;
+}
+
+#email::placeholder, #senha::placeholder {
+    color: azure;
+}
+
+.botao_entrar {
+    margin-top: 5px;
+    display: block;
+    background-color: rgb(6, 245, 85);
+    color: black;
+    width: 100%;
+    padding: 1em 1.2em;
+    border-radius: 20px;
+    border-color: black;
+    font-weight: 700;
+    font-size: 1em;
+    border-width: 0px;
+}
+
+.botao_entrar:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.botao_redefinir-senha {
+    background-color: transparent;
+    border-color: transparent;
+    color: rgb(0, 255, 55);
+    display: block;
+    font-size: 1.1em;
+    margin: 5px 0 0 auto;
+}
+
+.botao_redefinir-senha:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.criacao_conta {
+    margin-top: 10px;
+}
+
+.paragrafo_criar-conta {
+    margin-bottom: 5px;
+}
+
+.botao_criar-conta {
+    display: block;
+    background-color: rgb(6, 245, 85);
+    color: black;
+    width: 25%;
+    padding: 1em 1.2em;
+    border-radius: 10px;
+    border-color: black;
+    font-weight: 700;
+    font-size: 1em;
+    border-width: 0px;
+}
+
+.botao_criar-conta:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+}
